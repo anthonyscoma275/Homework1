@@ -1,0 +1,60 @@
+ .container {
+     height:100%;
+     width: 100%;
+     
+ }
+ 
+ 
+  
+  
+  .fixed {
+    background-color: lightgray;
+    position: fixed;
+    width: 200px;
+    height: 125px;
+    bottom: 77%;
+    left: 8.25%;
+    line-height: 125px;
+    text-align: center;
+    font-size: 24px;
+
+  
+  }
+  
+  .relative {
+    background-color: lightgray;
+    position: relative;
+    width: 63%;
+    height: 300px;
+    left: 310px;
+    line-height: 300px;
+    text-align: center;
+    font-size: 24px;
+    
+    
+  }
+  
+  .absolute {
+    background-color:gray;
+    position: absolute;
+    width: 280px;
+    height: 130px;
+    right: 15%;
+    bottom: 2.65%;
+    z-index: 1;
+    line-height: 130px;
+    text-align: center;
+    font-size: 24px;
+
+  }
+  
+  p {
+      margin-left: 350px;
+      margin-right: 350px;
+
+  }
+
+  h1 {
+    margin-left: 350px;
+  }
+  
